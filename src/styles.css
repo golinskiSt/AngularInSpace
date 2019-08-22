@@ -1,1 +1,51 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background-image: url("assets/maxresdefault.jpg");
+    background-size: cover;
+    color: white;
+    margin: 0 !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+:host {
+    display: inline-block;
+    max-width: 130px;
+    margin: 10px;
+    text-align: center;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .health {
+    background-color: red;
+    height: 10px;
+  }
+
+  .health div {
+    background-color: green;
+    height: 100%;
+  }
+
+  .property {
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px;
+    color: grey;
+  }
+
+  .property.active {
+    color: white;
+  }
+  .images {
+      position: relative;
+    }
+
+    .images .pilot {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 30%;
+    }

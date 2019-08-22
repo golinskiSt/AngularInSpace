@@ -1,0 +1,8 @@
+<h4>Hangar</h4>
+<app-space-ship *ngFor="let spaceShip of spaceShips" [spaceShip]="spaceShip" (selected)="selectedPiot()">
+  <button (click)="pilot()">Pilotuj</button>
+  <button (click)="pilot()">Opuść</button>
+</app-space-ship>
+<app-pilot-room></app-pilot-room>
+
+
